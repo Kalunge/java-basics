@@ -31,6 +31,16 @@ public class HelloApplication extends Application {
 //        reference type
         Date today = new Date();
 
-        System.out.println("Heloooo world " + today);
+        byte x = 1;
+        byte y = x;
+        x= 2;
+
+//        primitive point to the value and reference types point to the location address in memory
+
+//        Strings
+        String message = "hello world";
+
+
+        System.out.println(message + y);
     }
 }
