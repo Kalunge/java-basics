@@ -20,14 +20,11 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-//     Java arrays
-        int[] numbers = new int[5];
-        numbers[0]= 1;
-        numbers[2] = 2;
+//     Java multidimensional arrays
+        int [][] numbers = new int[2][3];
+        numbers[0][0] = 1;
+        numbers[1][0] = 1;
 
-        int[] newNumbers = {1,2,3,4,5};
-        System.out.println(newNumbers.length);
-        System.out.println(newNumbers);
-        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.deepToString(numbers));
     }
 }
