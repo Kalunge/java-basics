@@ -7,7 +7,6 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.Date;
 
 public class HelloApplication extends Application {
     @Override
@@ -20,11 +19,9 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-//     Java multidimensional arrays
-        int [][] numbers = new int[2][3];
-        numbers[0][0] = 1;
-        numbers[1][0] = 1;
+//     Java constants
+       final float PI = 3.14F;
 
-        System.out.println(Arrays.deepToString(numbers));
+        System.out.println(PI);
     }
 }
