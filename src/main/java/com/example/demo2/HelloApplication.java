@@ -36,11 +36,14 @@ public class HelloApplication extends Application {
         x= 2;
 
 //        primitive point to the value and reference types point to the location address in memory
-
 //        Strings
-        String message = "hello world";
+        String message = "hello world" + " !!";
 
 
-        System.out.println(message + y);
+
+        System.out.println(message.endsWith("!!"));
+        System.out.println(message.length());
+        System.out.println(message.indexOf("q"));
+        System.out.println(message.replace("!", "a"));
     }
 }
