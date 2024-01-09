@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Date;
 
 public class HelloApplication extends Application {
@@ -19,32 +20,14 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-//        primitive
-        int age = 30;
-//        age = 35;
-//        int temperature = 28;
-//        double price = 10.99;
-//        float secondPrice = 23.44F;
-//        char letter = 'A';
-//        boolean isHome = true;
+//     Java arrays
+        int[] numbers = new int[5];
+        numbers[0]= 1;
+        numbers[2] = 2;
 
-//        reference type
-        Date today = new Date();
-
-        byte x = 1;
-        byte y = x;
-        x= 2;
-
-//        primitive point to the value and reference types point to the location address in memory
-//        Strings
-        String message = "  hello world" + " !!";
-
-
-
-        System.out.println(message.endsWith("!!"));
-        System.out.println(message.length());
-        System.out.println(message.indexOf("q"));
-        System.out.println(message.replace("!", "a"));
-        System.out.println(message.trim());
+        int[] newNumbers = {1,2,3,4,5};
+        System.out.println(newNumbers.length);
+        System.out.println(newNumbers);
+        System.out.println(Arrays.toString(numbers));
     }
 }
