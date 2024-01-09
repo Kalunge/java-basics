@@ -19,9 +19,8 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-//     Java constants
-       final float PI = 3.14F;
-
-        System.out.println(PI);
+//     Java arthimetic
+        float result = 3/2;
+        System.out.println(result);
     }
 }
