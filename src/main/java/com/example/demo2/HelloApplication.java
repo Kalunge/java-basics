@@ -21,6 +21,10 @@ public class HelloApplication extends Application {
         int age = 30;
         age = 35;
         int temperature = 28;
+        double price = 10.99;
+        float secondPrice = 23.44F;
+        char letter = 'A';
+        boolean isHome = true;
         System.out.println("Heloooo world " + age);
     }
 }
